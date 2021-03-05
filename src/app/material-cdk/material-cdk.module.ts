@@ -4,8 +4,9 @@ import { CommonModule } from '@angular/common';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
-const components = [ CommonModule, MatIconModule, MatToolbarModule  ];
+const components = [ CommonModule, MatIconModule, MatToolbarModule, DragDropModule  ];
 
 @NgModule({
   declarations: [],

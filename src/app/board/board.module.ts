@@ -6,12 +6,13 @@ import { BoardComponent } from './board/board.component';
 import { ListComponent } from './components/list/list.component';
 import { TaskComponent } from './components/task/task.component';
 
-
+import { MaterialCdkModule } from 'src/app/material-cdk/material-cdk.module';
 @NgModule({
   declarations: [BoardComponent, ListComponent, TaskComponent],
   imports: [
     CommonModule,
-    BoardRoutingModule
+    BoardRoutingModule,
+    MaterialCdkModule
   ]
 })
 export class BoardModule { }
