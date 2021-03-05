@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CoreModule } from 'src/app/core/core.module';
+import { BoardModule } from 'src/app/board/board.module';
+import { HomeModule } from 'src/app/home/home.module';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
@@ -17,6 +19,8 @@ import { SharedModule } from './shared/shared.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     CoreModule,
+    BoardModule,
+    HomeModule,
     SharedModule,
   ],
   providers: [],

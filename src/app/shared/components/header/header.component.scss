@@ -19,6 +19,9 @@
       color: white;
       text-decoration: none;
       vertical-align: middle;
+      &:active {
+        text-decoration: underline;
+      }
     }
   }
 }
