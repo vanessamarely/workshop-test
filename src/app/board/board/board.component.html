@@ -1,4 +1,4 @@
 <main class="board">
-  <app-list>
+  <app-list *ngFor="let list of lists" [list]="list">
   </app-list>
 </main>
